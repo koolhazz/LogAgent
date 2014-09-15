@@ -1,0 +1,135 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+COMMON_LOG	.\log.cc	25;"	d	file:
+Collect	.\collect.cc	/^Collect::Collect()$/;"	f	class:Collect
+Collect	.\collect.h	/^class Collect {$/;"	c
+Conf	.\conf.cc	/^Conf::Conf()$/;"	f	class:Conf
+Conf	.\conf.h	/^class Conf {$/;"	c
+DEBUG_TYPE	.\log.cc	/^    DEBUG_TYPE,$/;"	e	enum:LOG_TYPE	file:
+DLMTER_2	.\collect.cc	12;"	d	file:
+DLMTER_3	.\collect.cc	13;"	d	file:
+EEVENT	.\collect.h	/^    EEVENT,$/;"	e	enum:__anon1
+ENORMAL	.\collect.h	/^    ENORMAL,$/;"	e	enum:__anon1
+EPERF	.\collect.h	/^    EPERF    $/;"	e	enum:__anon1
+ERROR_TYPE	.\log.cc	/^    ERROR_TYPE,$/;"	e	enum:LOG_TYPE	file:
+FATAL_TYPE	.\log.cc	/^    FATAL_TYPE,$/;"	e	enum:LOG_TYPE	file:
+INFO_TYPE	.\log.cc	/^    INFO_TYPE,$/;"	e	enum:LOG_TYPE	file:
+LOCKMODE	.\daemonize.cc	64;"	d	file:
+LOG_TYPE	.\log.cc	/^enum LOG_TYPE {$/;"	g	file:
+Log	.\log.cc	/^Log::Log()$/;"	f	class:Log
+Log	.\log.h	/^class Log {$/;"	c
+Message_Queue	.\queue.h	/^    Message_Queue():_nready(0)$/;"	f	class:Message_Queue
+Message_Queue	.\queue.h	/^class Message_Queue$/;"	c
+MsgType_t	.\collect.h	/^} MsgType_t;$/;"	t	typeref:enum:__anon1
+PANIC_TYPE	.\log.cc	/^    PANIC_TYPE = 0,$/;"	e	enum:LOG_TYPE	file:
+Rotate	.\rotate.cc	/^Rotate::Rotate()$/;"	f	class:Rotate
+Rotate	.\rotate.h	/^class Rotate {$/;"	c
+UUID_STR_LEN	.\collect.cc	10;"	d	file:
+WARN_TYPE	.\log.cc	/^    WARN_TYPE,$/;"	e	enum:LOG_TYPE	file:
+_COLLECT_H_	.\collect.h	2;"	d
+_CONF_H_	.\conf.h	2;"	d
+_DAEMONIZE_H_	.\daemonize.h	2;"	d
+_LOG_H_	.\log.h	2;"	d
+_MAIN_H_	.\main.h	2;"	d
+_QUEUE_H_	.\queue.h	2;"	d
+_ROTATE_H_	.\rotate.h	2;"	d
+_SPLIT_H_	.\split.h	2;"	d
+_UDP_H_	.\udp.h	2;"	d
+_cond	.\queue.h	/^    pthread_cond_t      _cond;$/;"	m	class:Message_Queue
+_current_size	.\log.h	/^    int64_t				_current_size;$/;"	m	class:Log
+_fd	.\log.h	/^    int					_fd;$/;"	m	class:Log
+_flag	.\log.h	/^    int					_flag;$/;"	m	class:Log
+_level	.\log.h	/^    int					_level;$/;"	m	class:Log
+_max_size	.\log.h	/^    int64_t				_max_size;$/;"	m	class:Log
+_mutex	.\log.h	/^	pthread_mutex_t		_mutex;$/;"	m	class:Log
+_mutex	.\queue.h	/^    pthread_mutex_t     _mutex;$/;"	m	class:Message_Queue
+_nready	.\queue.h	/^    int                 _nready;$/;"	m	class:Message_Queue
+_queue	.\queue.h	/^    deque<DataType>     _queue;$/;"	m	class:Message_Queue
+_rotate	.\log.h	/^    int					_rotate;$/;"	m	class:Log
+_run	.\collect.h	/^    bool   _run;$/;"	m	class:Collect
+_run	.\rotate.h	/^    bool    _run;$/;"	m	class:Rotate
+appBase	.\main.h	/^class appBase {$/;"	c
+app_base	.\main.cc	/^appBase app_base;$/;"	v
+app_loop	.\main.cc	/^static void app_loop()$/;"	f	file:
+bind_udp	.\udp.cc	/^int bind_udp(string host, int port)$/;"	f
+clear_output_history	.\main.cc	/^static int clear_output_history()$/;"	f	file:
+collect_thread	.\main.h	/^	Collect 			collect_thread;$/;"	m	class:appBase
+conf_file	.\main.h	/^    string 				conf_file;$/;"	m	class:appBase
+consloe	.\main.h	/^    int 				consloe;$/;"	m	class:appBase
+daemonize	.\daemonize.cc	/^int daemonize()$/;"	f
+debug	.\log.cc	/^void Log::debug(char *fmt, ...)$/;"	f	class:Log
+deinit_misc	.\main.cc	/^static void deinit_misc()$/;"	f	file:
+dst_dir	.\main.h	/^	string 				dst_dir;$/;"	m	class:appBase
+dst_dir_2	.\main.h	/^	string				dst_dir_2;$/;"	m	class:appBase
+dst_dir_3	.\main.h	/^	string				dst_dir_3;$/;"	m	class:appBase
+error	.\log.cc	/^void Log::error(char *fmt, ...)$/;"	f	class:Log
+event_key	.\collect.h	/^    key_t  event_key;$/;"	m	class:Collect
+fatal	.\log.cc	/^void Log::fatal(char *fmt, ...)$/;"	f	class:Log
+freq	.\main.h	/^	int 				freq;$/;"	m	class:appBase
+get_msg	.\queue.h	/^    int get_msg(DataType &d, int sec)$/;"	f	class:Message_Queue
+get_msg	.\queue.h	/^    void get_msg(DataType &d)$/;"	f	class:Message_Queue
+get_msg_type	.\collect.cc	/^Collect::get_msg_type(string& msg)$/;"	f	class:Collect
+gz_handle	.\main.h	/^	gzFile 				gz_handle;$/;"	m	class:appBase
+gz_handle_2	.\main.h	/^	gzFile				gz_handle_2;$/;"	m	class:appBase
+gz_handle_3	.\main.h	/^	gzFile				gz_handle_3;$/;"	m	class:appBase
+host	.\main.h	/^	string 				host;$/;"	m	class:appBase
+info	.\log.cc	/^void Log::info(char *fmt, ...)$/;"	f	class:Log
+init_conf	.\main.cc	/^static int init_conf()$/;"	f	file:
+init_key	.\collect.cc	/^Collect::init_key()$/;"	f	class:Collect
+init_misc	.\main.cc	/^static void init_misc()$/;"	f	file:
+is_daemonize	.\main.h	/^    int 				is_daemonize;$/;"	m	class:appBase
+key_itr_t	.\collect.h	/^    typedef key_t::iterator key_itr_t;$/;"	t	class:Collect
+key_t	.\collect.h	/^    typedef vector<string>  key_t;$/;"	t	class:Collect
+level	.\main.h	/^    int 				level;$/;"	m	class:appBase
+lock_file	.\daemonize.cc	/^static int lock_file(int fd)$/;"	f	file:
+log	.\main.cc	/^Log log;$/;"	v
+log_file	.\main.h	/^    string 				log_file;$/;"	m	class:appBase
+log_max_size	.\main.h	/^    uint64_t 			log_max_size;$/;"	m	class:appBase
+log_type_str	.\log.cc	/^char *log_type_str[] = {"panic", "fatal", "error", "warn ", "info ", "debug"};$/;"	v
+ltrim	.\conf.h	/^    static inline std::string &ltrim(std::string &s)$/;"	f	class:Conf
+main	.\log.cc	/^    int main()$/;"	f
+main	.\main.cc	/^int main(int argc, char **argv)$/;"	f
+msg_queue	.\main.h	/^	Message_Queue<string> msg_queue;$/;"	m	class:appBase
+mutex	.\main.h	/^    pthread_mutex_t 	mutex;$/;"	m	class:appBase
+open_file	.\collect.cc	/^int Collect::open_file()$/;"	f	class:Collect
+output	.\log.cc	/^void Log::output(char *buf, int cnt)$/;"	f	class:Log
+output	.\main.h	/^	string 				output;$/;"	m	class:appBase
+panic	.\log.cc	/^void Log::panic(char *fmt, ...)$/;"	f	class:Log
+parse	.\conf.cc	/^int Conf::parse(string &conf_file, map<string, string>& result)$/;"	f	class:Conf
+parse_arg	.\main.cc	/^static int parse_arg(int argc, char **argv)$/;"	f	file:
+perf_key	.\collect.h	/^    key_t  perf_key;$/;"	m	class:Collect
+pid_file	.\main.h	/^    string 				pid_file;$/;"	m	class:appBase
+port	.\main.h	/^	int 				port;$/;"	m	class:appBase
+put_msg	.\queue.h	/^    void put_msg(DataType d)$/;"	f	class:Message_Queue
+recv_udp_packet	.\main.cc	/^static void recv_udp_packet(int fd)$/;"	f	file:
+reset_msg	.\queue.h	/^    void reset_msg()$/;"	f	class:Message_Queue
+rotate	.\main.h	/^    int 				rotate;$/;"	m	class:appBase
+rotate_thread	.\main.h	/^	Rotate 				rotate_thread;$/;"	m	class:appBase
+rtrim	.\conf.h	/^    static inline std::string &rtrim(std::string &s) {$/;"	f	class:Conf
+single_instance_running	.\daemonize.cc	/^int single_instance_running(const char* pid_file)$/;"	f
+split	.\split.cc	/^int split(const string& src, const char s, vector<string> &result)$/;"	f
+start	.\collect.cc	/^int Collect::start()$/;"	f	class:Collect
+start	.\log.cc	/^void Log::start(string log_file, int level, int flag, int rotate, int64_t max_size)$/;"	f	class:Log
+start	.\rotate.cc	/^int Rotate::start()$/;"	f	class:Rotate
+stop	.\collect.cc	/^void Collect::stop()$/;"	f	class:Collect
+stop	.\log.cc	/^void Log::stop()$/;"	f	class:Log
+stop	.\rotate.cc	/^void Rotate::stop()$/;"	f	class:Rotate
+task	.\collect.cc	/^void* Collect::task(void *args)$/;"	f	class:Collect
+task	.\rotate.cc	/^void* Rotate::task(void *args)$/;"	f	class:Rotate
+tmp_dir	.\main.h	/^	string 				tmp_dir;$/;"	m	class:appBase
+tmp_dir_2	.\main.h	/^	string 				tmp_dir_2;$/;"	m	class:appBase
+tmp_dir_3	.\main.h	/^	string				tmp_dir_3;$/;"	m	class:appBase
+trim	.\conf.h	/^    static inline std::string &trim(std::string &s)$/;"	f	class:Conf
+trim_rn	.\collect.cc	/^int Collect::trim_rn(string &in, string &out)$/;"	f	class:Collect
+unique	.\main.h	/^	string 				unique;$/;"	m	class:appBase
+uuid_format	.\collect.cc	/^int Collect::uuid_format(char *uuid_out, char *uuid_in)$/;"	f	class:Collect
+warn	.\log.cc	/^void Log::warn(char *fmt, ...)$/;"	f	class:Log
+~Collect	.\collect.cc	/^Collect::~Collect()$/;"	f	class:Collect
+~Conf	.\conf.cc	/^Conf::~Conf()$/;"	f	class:Conf
+~Log	.\log.cc	/^Log::~Log()$/;"	f	class:Log
+~Message_Queue	.\queue.h	/^    ~Message_Queue()$/;"	f	class:Message_Queue
+~Rotate	.\rotate.cc	/^Rotate::~Rotate()$/;"	f	class:Rotate
